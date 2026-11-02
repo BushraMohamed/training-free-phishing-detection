@@ -1,0 +1,10 @@
+openai>=1.0
+pandas
+numpy
+scipy
+scikit-learn
+gradio>=4.0
+python-dotenv
+openpyxl
+rank_bm25          # only for the diagnostic in Pattern_BM25_TFIDF_Bilingual.py
+# transformer baselines (GPU recommended): torch, transformers
