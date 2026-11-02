@@ -1,0 +1,18 @@
+{
+  "created": "2026-10-20T18:57:26",
+  "model": "xlm-roberta-base",
+  "epochs": 3,
+  "max_len": 256,
+  "batch": 16,
+  "lr": 2e-05,
+  "seed": 2026,
+  "split_source": "imported from Select_And_Freeze_Configuration.py",
+  "model_selection": "best epoch by F1 on a 10% stratified validation slice of the development half",
+  "device": "cuda",
+  "versions": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.1"
+  },
+  "runtime_minutes": 19.9
+}

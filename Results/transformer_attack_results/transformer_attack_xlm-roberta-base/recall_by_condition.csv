@@ -1,0 +1,33 @@
+Dataset,Model,Condition,Phishing_emails,Recall_%,Recall_drop_pp,Drop_CI95_low,Drop_CI95_high,FP_on_clean_legitimate,Legitimate_emails
+"MeAJOR 2025 (3,000)",xlm-roberta-base,Clean,100,97.0,0.0,0.0,0.0,2,100
+"MeAJOR 2025 (3,000)",xlm-roberta-base,A1 visible injection,100,95.0,2.0,0.0,5.0,2,100
+"MeAJOR 2025 (3,000)",xlm-roberta-base,A1 visible injection + sanitiser,100,97.0,0.0,0.0,0.0,2,100
+"MeAJOR 2025 (3,000)",xlm-roberta-base,A2 hidden injection,100,93.0,4.0,1.0,8.0,2,100
+"MeAJOR 2025 (3,000)",xlm-roberta-base,A2 hidden injection + sanitiser,100,97.0,0.0,0.0,0.0,2,100
+"MeAJOR 2025 (3,000)",xlm-roberta-base,A3 benign stuffing,100,94.0,3.0,0.0,7.0,2,100
+"MeAJOR 2025 (3,000)",xlm-roberta-base,A3 benign stuffing + sanitiser,100,94.0,3.0,0.0,7.0,2,100
+"MeAJOR 2025 (3,000)",xlm-roberta-base,A4 paraphrase,100,84.0,13.0,5.0,20.02,2,100
+Salloum English 300,xlm-roberta-base,Clean,75,93.33,0.0,0.0,0.0,38,75
+Salloum English 300,xlm-roberta-base,A1 visible injection,75,98.67,-5.33,-10.67,-1.33,38,75
+Salloum English 300,xlm-roberta-base,A1 visible injection + sanitiser,75,93.33,0.0,0.0,0.0,38,75
+Salloum English 300,xlm-roberta-base,A2 hidden injection,75,97.33,-4.0,-8.0,0.0,38,75
+Salloum English 300,xlm-roberta-base,A2 hidden injection + sanitiser,75,93.33,0.0,0.0,0.0,38,75
+Salloum English 300,xlm-roberta-base,A3 benign stuffing,75,94.67,-1.33,-4.0,0.0,38,75
+Salloum English 300,xlm-roberta-base,A3 benign stuffing + sanitiser,75,94.67,-1.33,-4.0,0.0,38,75
+Salloum English 300,xlm-roberta-base,A4 paraphrase,75,100.0,-6.67,-12.0,-1.33,38,75
+Salloum Arabic 300,xlm-roberta-base,Clean,75,76.0,0.0,0.0,0.0,7,75
+Salloum Arabic 300,xlm-roberta-base,A1 visible injection,75,78.67,-2.67,-6.67,0.0,7,75
+Salloum Arabic 300,xlm-roberta-base,A1 visible injection + sanitiser,75,76.0,0.0,0.0,0.0,7,75
+Salloum Arabic 300,xlm-roberta-base,A2 hidden injection,75,81.33,-5.33,-12.0,-1.33,7,75
+Salloum Arabic 300,xlm-roberta-base,A2 hidden injection + sanitiser,75,76.0,0.0,0.0,0.0,7,75
+Salloum Arabic 300,xlm-roberta-base,A3 benign stuffing,75,90.67,-14.67,-22.67,-8.0,7,75
+Salloum Arabic 300,xlm-roberta-base,A3 benign stuffing + sanitiser,75,90.67,-14.67,-22.67,-6.67,7,75
+Salloum Arabic 300,xlm-roberta-base,A4 paraphrase,75,92.0,-16.0,-25.33,-6.67,7,75
+ALL,xlm-roberta-base,Clean,250,89.6,0.0,0.0,0.0,47,250
+ALL,xlm-roberta-base,A1 visible injection,250,91.2,-1.6,-4.0,0.4,47,250
+ALL,xlm-roberta-base,A1 visible injection + sanitiser,250,89.6,0.0,0.0,0.0,47,250
+ALL,xlm-roberta-base,A2 hidden injection,250,90.8,-1.2,-4.0,1.2,47,250
+ALL,xlm-roberta-base,A2 hidden injection + sanitiser,250,89.6,0.0,0.0,0.0,47,250
+ALL,xlm-roberta-base,A3 benign stuffing,250,93.2,-3.6,-6.8,-0.8,47,250
+ALL,xlm-roberta-base,A3 benign stuffing + sanitiser,250,93.2,-3.6,-6.8,-0.8,47,250
+ALL,xlm-roberta-base,A4 paraphrase,250,91.2,-1.6,-6.4,2.81,47,250

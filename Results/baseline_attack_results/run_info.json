@@ -1,0 +1,9 @@
+{
+  "created": "2026-10-31T14:31:39",
+  "seed": 2026,
+  "split_source": "imported from Select_And_Freeze_Configuration.py",
+  "emails": 500,
+  "same_sample_as_robustness_results": true,
+  "python": "3.9.6",
+  "runtime_minutes": 0.2
+}

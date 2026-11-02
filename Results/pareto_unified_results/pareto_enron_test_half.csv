@@ -1,0 +1,8 @@
+Dataset,Config,Agents,Weights_P_R_Pe,Cost_per_1000,F1,Precision,Recall,FP,FN,TP,TN,AUC,Test_emails,Note,Pareto_front
+Enron Full,C1,Pattern only,100/0/0,0.0,76.15,61.48,100.0,4378,0,6988,3518,0.955,14884,,
+Enron Full,C2,Reasoning only,0/100/0,0.42,77.74,96.86,64.93,147,2451,4537,7749,0.7543,14884,,
+Enron Full,C3,Perspective only,0/0/100,0.0,29.53,67.09,18.93,649,5665,1323,7247,0.5543,14884,,
+Enron Full,C4,Pattern + Reasoning,50/50/0,0.42,84.7,88.87,80.9,708,1335,5653,7188,0.9633,14884,,★
+Enron Full,C5,Pattern + Perspective,50/0/50,0.0,79.59,79.95,79.24,1389,1451,5537,6507,0.8948,14884,,★
+Enron Full,C6,Reasoning + Perspective,0/50/50,0.42,76.74,98.34,62.92,74,2591,4397,7822,0.8304,14884,,
+Enron Full,C7,"All three, equal",33/33/34,0.42,83.24,97.05,72.87,155,1896,5092,7741,0.9453,14884,,

@@ -1,0 +1,7 @@
+Dataset,Run_vs_run1,Decisions_changed,Emails,Changed_%,Mean_abs_Reasoning_diff,Perspective_scores_identical
+Salloum English 300,2,3,300,1.0,1.86,yes
+Salloum English 300,3,3,300,1.0,2.24,yes
+Salloum Arabic 300,2,7,300,2.33,3.0,yes
+Salloum Arabic 300,3,12,300,4.0,3.5,yes
+UAE Synthetic Arabic,2,2,600,0.33,0.79,yes
+UAE Synthetic Arabic,3,5,600,0.83,0.87,yes

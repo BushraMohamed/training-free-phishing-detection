@@ -1,0 +1,43 @@
+{
+  "created": "2026-10-20T18:03:23",
+  "seed": 2026,
+  "split_source": "imported from Select_And_Freeze_Configuration.py",
+  "n_terms": 50,
+  "max_per_class_per_dataset": 300,
+  "min_df": 5,
+  "k1_grid": [
+    0.5,
+    0.9,
+    1.2,
+    1.5,
+    1.7,
+    2.0
+  ],
+  "b_grid": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    0.9,
+    1.0
+  ],
+  "pattern_weights_percent": [
+    0,
+    3,
+    10
+  ],
+  "threshold_fixed": 30,
+  "threshold_grid": [
+    20,
+    25,
+    30,
+    35,
+    40
+  ],
+  "frozen_reasoning_perspective": [
+    0.9,
+    0.1
+  ],
+  "python": "3.9.6",
+  "runtime_minutes": 0.6
+}

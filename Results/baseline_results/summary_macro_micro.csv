@@ -1,0 +1,4 @@
+Model,Macro_F1,Macro_Precision,Macro_Recall,Macro_Accuracy,Micro_F1,Micro_Precision,Micro_Recall,Total_TP,Total_FP,Total_FN,Total_TN
+TF-IDF + Logistic Regression,97.31,95.99,98.73,97.26,98.74,98.22,99.28,7980,145,58,8801
+TF-IDF + Linear SVM,97.31,95.99,98.73,97.25,98.82,98.4,99.25,7978,130,60,8816
+"Proposed system (R 90% / Pe 10%, T=30)",90.21,94.29,87.49,91.19,79.73,96.38,67.99,5465,205,2573,8741

@@ -1,0 +1,11 @@
+Language,Scorer,Dataset,Test_AUC_pattern_alone,k1,b
+English,BM25,Enron Full,0.955,2.0,0.9
+English,BM25,Salloum English 300,0.656,2.0,0.9
+English,BM25,"MeAJOR 2025 (3,000)",0.8338,2.0,0.9
+English,TF-IDF,Enron Full,0.9526,,
+English,TF-IDF,Salloum English 300,0.654,,
+English,TF-IDF,"MeAJOR 2025 (3,000)",0.8304,,
+Arabic,BM25,Salloum Arabic 300,0.7991,0.5,0.25
+Arabic,BM25,UAE Synthetic Arabic,0.9999,0.5,0.25
+Arabic,TF-IDF,Salloum Arabic 300,0.8061,,
+Arabic,TF-IDF,UAE Synthetic Arabic,0.9998,,

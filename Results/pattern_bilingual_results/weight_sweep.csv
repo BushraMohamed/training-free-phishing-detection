@@ -1,0 +1,73 @@
+Language,Scorer,Pattern_weight_%,Threshold_mode,T,Dataset,Accuracy,Precision,Recall,F1,TP,FP,FN,TN,Note
+English,BM25,0,T fixed at 30,30,Enron Full,82.44,97.07,64.54,77.53,4510,136,2478,7760,
+English,BM25,0,T fixed at 30,30,Salloum English 300,94.0,95.83,92.0,93.88,69,3,6,72,
+English,BM25,0,T fixed at 30,30,"MeAJOR 2025 (3,000)",90.87,92.51,88.93,90.69,667,54,83,696,
+English,BM25,0,T fixed at 30,30,Nazario Full,91.95,100.0,91.95,95.81,720,0,63,0,phishing-only: use Recall
+English,BM25,0,T chosen on development,20,Enron Full,82.72,96.29,65.73,78.13,4593,177,2395,7719,
+English,BM25,0,T chosen on development,20,Salloum English 300,94.0,94.59,93.33,93.96,70,4,5,71,
+English,BM25,0,T chosen on development,20,"MeAJOR 2025 (3,000)",90.67,91.44,89.73,90.58,673,63,77,687,
+English,BM25,0,T chosen on development,20,Nazario Full,92.85,100.0,92.85,96.29,727,0,56,0,phishing-only: use Recall
+English,BM25,3,T fixed at 30,30,Enron Full,82.47,97.08,64.61,77.58,4515,136,2473,7760,
+English,BM25,3,T fixed at 30,30,Salloum English 300,94.0,95.83,92.0,93.88,69,3,6,72,
+English,BM25,3,T fixed at 30,30,"MeAJOR 2025 (3,000)",90.87,92.39,89.07,90.7,668,55,82,695,
+English,BM25,3,T fixed at 30,30,Nazario Full,91.95,100.0,91.95,95.81,720,0,63,0,phishing-only: use Recall
+English,BM25,3,T chosen on development,20,Enron Full,82.77,96.28,65.86,78.21,4602,178,2386,7718,
+English,BM25,3,T chosen on development,20,Salloum English 300,94.0,94.59,93.33,93.96,70,4,5,71,
+English,BM25,3,T chosen on development,20,"MeAJOR 2025 (3,000)",90.6,91.32,89.73,90.52,673,64,77,686,
+English,BM25,3,T chosen on development,20,Nazario Full,93.1,100.0,93.1,96.43,729,0,54,0,phishing-only: use Recall
+English,BM25,10,T fixed at 30,30,Enron Full,82.57,97.02,64.87,77.75,4533,139,2455,7757,
+English,BM25,10,T fixed at 30,30,Salloum English 300,94.0,95.83,92.0,93.88,69,3,6,72,
+English,BM25,10,T fixed at 30,30,"MeAJOR 2025 (3,000)",90.87,92.28,89.2,90.71,669,56,81,694,
+English,BM25,10,T fixed at 30,30,Nazario Full,92.34,100.0,92.34,96.02,723,0,60,0,phishing-only: use Recall
+English,BM25,10,T chosen on development,20,Enron Full,83.31,96.03,67.23,79.09,4698,194,2290,7702,
+English,BM25,10,T chosen on development,20,Salloum English 300,92.67,92.11,93.33,92.72,70,6,5,69,
+English,BM25,10,T chosen on development,20,"MeAJOR 2025 (3,000)",90.27,90.48,90.0,90.24,675,71,75,679,
+English,BM25,10,T chosen on development,20,Nazario Full,93.23,100.0,93.23,96.5,730,0,53,0,phishing-only: use Recall
+English,TF-IDF,0,T fixed at 30,30,Enron Full,82.44,97.07,64.54,77.53,4510,136,2478,7760,
+English,TF-IDF,0,T fixed at 30,30,Salloum English 300,94.0,95.83,92.0,93.88,69,3,6,72,
+English,TF-IDF,0,T fixed at 30,30,"MeAJOR 2025 (3,000)",90.87,92.51,88.93,90.69,667,54,83,696,
+English,TF-IDF,0,T fixed at 30,30,Nazario Full,91.95,100.0,91.95,95.81,720,0,63,0,phishing-only: use Recall
+English,TF-IDF,0,T chosen on development,20,Enron Full,82.72,96.29,65.73,78.13,4593,177,2395,7719,
+English,TF-IDF,0,T chosen on development,20,Salloum English 300,94.0,94.59,93.33,93.96,70,4,5,71,
+English,TF-IDF,0,T chosen on development,20,"MeAJOR 2025 (3,000)",90.67,91.44,89.73,90.58,673,63,77,687,
+English,TF-IDF,0,T chosen on development,20,Nazario Full,92.85,100.0,92.85,96.29,727,0,56,0,phishing-only: use Recall
+English,TF-IDF,3,T fixed at 30,30,Enron Full,82.48,97.08,64.63,77.59,4516,136,2472,7760,
+English,TF-IDF,3,T fixed at 30,30,Salloum English 300,94.0,95.83,92.0,93.88,69,3,6,72,
+English,TF-IDF,3,T fixed at 30,30,"MeAJOR 2025 (3,000)",90.87,92.39,89.07,90.7,668,55,82,695,
+English,TF-IDF,3,T fixed at 30,30,Nazario Full,92.08,100.0,92.08,95.88,721,0,62,0,phishing-only: use Recall
+English,TF-IDF,3,T chosen on development,20,Enron Full,82.77,96.28,65.86,78.21,4602,178,2386,7718,
+English,TF-IDF,3,T chosen on development,20,Salloum English 300,94.0,94.59,93.33,93.96,70,4,5,71,
+English,TF-IDF,3,T chosen on development,20,"MeAJOR 2025 (3,000)",90.6,91.32,89.73,90.52,673,64,77,686,
+English,TF-IDF,3,T chosen on development,20,Nazario Full,93.1,100.0,93.1,96.43,729,0,54,0,phishing-only: use Recall
+English,TF-IDF,10,T fixed at 30,30,Enron Full,82.69,97.1,65.07,77.92,4547,136,2441,7760,
+English,TF-IDF,10,T fixed at 30,30,Salloum English 300,94.0,95.83,92.0,93.88,69,3,6,72,
+English,TF-IDF,10,T fixed at 30,30,"MeAJOR 2025 (3,000)",90.87,92.28,89.2,90.71,669,56,81,694,
+English,TF-IDF,10,T fixed at 30,30,Nazario Full,92.34,100.0,92.34,96.02,723,0,60,0,phishing-only: use Recall
+English,TF-IDF,10,T chosen on development,20,Enron Full,83.59,96.05,67.83,79.51,4740,195,2248,7701,
+English,TF-IDF,10,T chosen on development,20,Salloum English 300,92.67,92.11,93.33,92.72,70,6,5,69,
+English,TF-IDF,10,T chosen on development,20,"MeAJOR 2025 (3,000)",90.13,90.35,89.87,90.11,674,72,76,678,
+English,TF-IDF,10,T chosen on development,20,Nazario Full,93.36,100.0,93.36,96.57,731,0,52,0,phishing-only: use Recall
+Arabic,BM25,0,T fixed at 30,30,Salloum Arabic 300,89.33,87.34,92.0,89.61,69,10,6,65,
+Arabic,BM25,0,T fixed at 30,30,UAE Synthetic Arabic,99.33,98.68,100.0,99.34,150,2,0,148,
+Arabic,BM25,0,T chosen on development,30,Salloum Arabic 300,89.33,87.34,92.0,89.61,69,10,6,65,
+Arabic,BM25,0,T chosen on development,30,UAE Synthetic Arabic,99.33,98.68,100.0,99.34,150,2,0,148,
+Arabic,BM25,3,T fixed at 30,30,Salloum Arabic 300,89.33,87.34,92.0,89.61,69,10,6,65,
+Arabic,BM25,3,T fixed at 30,30,UAE Synthetic Arabic,99.33,98.68,100.0,99.34,150,2,0,148,
+Arabic,BM25,3,T chosen on development,30,Salloum Arabic 300,89.33,87.34,92.0,89.61,69,10,6,65,
+Arabic,BM25,3,T chosen on development,30,UAE Synthetic Arabic,99.33,98.68,100.0,99.34,150,2,0,148,
+Arabic,BM25,10,T fixed at 30,30,Salloum Arabic 300,89.33,87.34,92.0,89.61,69,10,6,65,
+Arabic,BM25,10,T fixed at 30,30,UAE Synthetic Arabic,99.33,98.68,100.0,99.34,150,2,0,148,
+Arabic,BM25,10,T chosen on development,30,Salloum Arabic 300,89.33,87.34,92.0,89.61,69,10,6,65,
+Arabic,BM25,10,T chosen on development,30,UAE Synthetic Arabic,99.33,98.68,100.0,99.34,150,2,0,148,
+Arabic,TF-IDF,0,T fixed at 30,30,Salloum Arabic 300,89.33,87.34,92.0,89.61,69,10,6,65,
+Arabic,TF-IDF,0,T fixed at 30,30,UAE Synthetic Arabic,99.33,98.68,100.0,99.34,150,2,0,148,
+Arabic,TF-IDF,0,T chosen on development,30,Salloum Arabic 300,89.33,87.34,92.0,89.61,69,10,6,65,
+Arabic,TF-IDF,0,T chosen on development,30,UAE Synthetic Arabic,99.33,98.68,100.0,99.34,150,2,0,148,
+Arabic,TF-IDF,3,T fixed at 30,30,Salloum Arabic 300,89.33,87.34,92.0,89.61,69,10,6,65,
+Arabic,TF-IDF,3,T fixed at 30,30,UAE Synthetic Arabic,99.33,98.68,100.0,99.34,150,2,0,148,
+Arabic,TF-IDF,3,T chosen on development,30,Salloum Arabic 300,89.33,87.34,92.0,89.61,69,10,6,65,
+Arabic,TF-IDF,3,T chosen on development,30,UAE Synthetic Arabic,99.33,98.68,100.0,99.34,150,2,0,148,
+Arabic,TF-IDF,10,T fixed at 30,30,Salloum Arabic 300,89.33,87.34,92.0,89.61,69,10,6,65,
+Arabic,TF-IDF,10,T fixed at 30,30,UAE Synthetic Arabic,99.33,98.68,100.0,99.34,150,2,0,148,
+Arabic,TF-IDF,10,T chosen on development,30,Salloum Arabic 300,89.33,87.34,92.0,89.61,69,10,6,65,
+Arabic,TF-IDF,10,T chosen on development,30,UAE Synthetic Arabic,99.33,98.68,100.0,99.34,150,2,0,148,

@@ -1,0 +1,25 @@
+
+==============================================================================
+  xlm-roberta-base ON THE ATTACKED EMAILS (MOM 41, Action 4) | device cuda
+==============================================================================
+  same emails as robustness_results/per_email_scores.csv: True
+
+  MeAJOR 2025 (3,000): fine-tuning on 1500 development emails
+    epoch 1: train loss 0.4289 | validation F1 95.95% | 25s
+    epoch 2: train loss 0.1828 | validation F1 96.55% | 24s
+    epoch 3: train loss 0.0984 | validation F1 97.99% | 24s
+    best epoch 3, validation F1 97.99%; classified 900 clean/attacked texts
+
+  Salloum English 300: fine-tuning on 150 development emails
+    epoch 1: train loss 0.6617 | validation F1 88.89% | 2s
+    epoch 2: train loss 0.6078 | validation F1 87.50% | 2s
+    epoch 3: train loss 0.5321 | validation F1 80.00% | 2s
+    best epoch 1, validation F1 88.89%; classified 675 clean/attacked texts
+
+  Salloum Arabic 300: fine-tuning on 150 development emails
+    epoch 1: train loss 0.6662 | validation F1 70.59% | 2s
+    epoch 2: train loss 0.6049 | validation F1 100.00% | 2s
+    epoch 3: train loss 0.5511 | validation F1 100.00% | 2s
+    best epoch 2, validation F1 100.00%; classified 675 clean/attacked texts
+
+  Saved to transformer_attack_xlm-roberta-base/ (2.2 minutes).

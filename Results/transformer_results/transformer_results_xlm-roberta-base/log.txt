@@ -1,0 +1,52 @@
+
+==============================================================================
+  TRANSFORMER BASELINE: xlm-roberta-base  on the same development / test halves
+  2026-10-20 18:37 | device: cuda (Tesla T4)
+  split: imported from Select_And_Freeze_Configuration.py
+==============================================================================
+  datasets to fine-tune on: ['Enron Full', 'Salloum English 300', 'Salloum Arabic 300', 'MeAJOR 2025 (3,000)', 'UAE Synthetic Arabic']
+
+  Enron Full: fine-tuning on 14883 development emails, testing on 14884
+    epoch 1: train loss 0.1687 | validation F1 98.04% | 260s
+    epoch 2: train loss 0.0297 | validation F1 98.85% | 266s
+    epoch 3: train loss 0.0072 | validation F1 99.21% | 265s
+    TEST: F1 98.99%  Precision 99.44%  Recall 98.55%  FP 39  FN 101
+    system on the same test half: F1 77.53%  |  model minus system: +21.43pp [+20.58, +22.31] clear difference
+    cross-corpus -> MeAJOR 2025 (3,000): F1 93.41%
+    cross-corpus -> Salloum English 300: F1 76.19%
+    cross-corpus -> Nazario Full: Recall 67.94%
+
+  Salloum English 300: fine-tuning on 150 development emails, testing on 150
+    epoch 1: train loss 0.6617 | validation F1 88.89% | 3s
+    epoch 2: train loss 0.6076 | validation F1 87.50% | 3s
+    epoch 3: train loss 0.5318 | validation F1 80.00% | 3s
+    TEST: F1 76.50%  Precision 64.81%  Recall 93.33%  FP 38  FN 5
+    system on the same test half: F1 93.88%  |  model minus system: -17.48pp [-24.66, -10.45] clear difference
+
+  Salloum Arabic 300: fine-tuning on 150 development emails, testing on 150
+    epoch 1: train loss 0.6662 | validation F1 70.59% | 3s
+    epoch 2: train loss 0.6050 | validation F1 100.00% | 3s
+    epoch 3: train loss 0.5509 | validation F1 100.00% | 3s
+    TEST: F1 82.01%  Precision 89.06%  Recall 76.00%  FP 7  FN 18
+    system on the same test half: F1 89.61%  |  model minus system: -7.70pp [-16.36, +0.35] no clear difference
+    cross-corpus -> UAE Synthetic Arabic: F1 66.67%
+
+  MeAJOR 2025 (3,000): fine-tuning on 1500 development emails, testing on 1500
+    epoch 1: train loss 0.4189 | validation F1 94.52% | 28s
+    epoch 2: train loss 0.1890 | validation F1 97.26% | 27s
+    epoch 3: train loss 0.1117 | validation F1 97.33% | 27s
+    TEST: F1 95.79%  Precision 96.11%  Recall 95.47%  FP 29  FN 34
+    system on the same test half: F1 90.69%  |  model minus system: +5.08pp [+3.41, +6.91] clear difference
+    cross-corpus -> Enron Full: F1 82.64%
+    cross-corpus -> Salloum English 300: F1 65.31%
+
+  UAE Synthetic Arabic: fine-tuning on 300 development emails, testing on 300
+    epoch 1: train loss 0.7091 | validation F1 66.67% | 4s
+    epoch 2: train loss 0.5805 | validation F1 90.91% | 4s
+    epoch 3: train loss 0.4846 | validation F1 96.77% | 4s
+    TEST: F1 99.01%  Precision 98.04%  Recall 100.00%  FP 3  FN 0
+    system on the same test half: F1 99.34%  |  model minus system: -0.34pp [-1.81, +1.05] no clear difference
+    cross-corpus -> Salloum Arabic 300: F1 69.43%
+
+  Saved to transformer_results_xlm-roberta-base/  (19.9 minutes). Send me this folder.
+

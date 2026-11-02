@@ -1,0 +1,26 @@
+
+==============================================================================
+  TRANSFORMER BASELINE: aubmindlab/bert-base-arabertv02  on the same development / test halves
+  2026-10-20 19:12 | device: cuda (Tesla T4)
+  split: imported from Select_And_Freeze_Configuration.py
+==============================================================================
+  datasets to fine-tune on: ['Salloum Arabic 300', 'UAE Synthetic Arabic']
+
+  Salloum Arabic 300: fine-tuning on 150 development emails, testing on 150
+    epoch 1: train loss 0.6597 | validation F1 100.00% | 2s
+    epoch 2: train loss 0.3768 | validation F1 100.00% | 2s
+    epoch 3: train loss 0.2705 | validation F1 100.00% | 2s
+    TEST: F1 87.58%  Precision 85.90%  Recall 89.33%  FP 11  FN 8
+    system on the same test half: F1 89.61%  |  model minus system: -2.05pp [-9.30, +4.91] no clear difference
+    cross-corpus -> UAE Synthetic Arabic: F1 69.93%
+
+  UAE Synthetic Arabic: fine-tuning on 300 development emails, testing on 300
+    epoch 1: train loss 0.4129 | validation F1 100.00% | 3s
+    epoch 2: train loss 0.0541 | validation F1 100.00% | 3s
+    epoch 3: train loss 0.0145 | validation F1 100.00% | 3s
+    TEST: F1 97.61%  Precision 100.00%  Recall 95.33%  FP 0  FN 7
+    system on the same test half: F1 99.34%  |  model minus system: -1.66pp [-3.71, -0.01] clear difference
+    cross-corpus -> Salloum Arabic 300: F1 63.74%
+
+  Saved to transformer_results_bert-base-arabertv02/  (0.6 minutes). Send me this folder.
+

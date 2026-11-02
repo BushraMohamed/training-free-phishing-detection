@@ -1,0 +1,9 @@
+Language,Scorer,Comparison,F1_diff_pp,CI95_low,CI95_high,Verdict
+English,BM25,"Pattern 3% minus Pattern 0% (T=30, macro F1)",0.02,-0.04,0.09,no clear difference
+English,BM25,"Pattern 10% minus Pattern 0% (T=30, macro F1)",0.08,-0.02,0.19,no clear difference
+English,TF-IDF,"Pattern 3% minus Pattern 0% (T=30, macro F1)",0.02,-0.04,0.09,no clear difference
+English,TF-IDF,"Pattern 10% minus Pattern 0% (T=30, macro F1)",0.14,0.04,0.25,clear difference
+Arabic,BM25,"Pattern 3% minus Pattern 0% (T=30, macro F1)",0.0,0.0,0.0,no clear difference
+Arabic,BM25,"Pattern 10% minus Pattern 0% (T=30, macro F1)",0.0,0.0,0.0,no clear difference
+Arabic,TF-IDF,"Pattern 3% minus Pattern 0% (T=30, macro F1)",0.0,0.0,0.0,no clear difference
+Arabic,TF-IDF,"Pattern 10% minus Pattern 0% (T=30, macro F1)",0.0,0.0,0.0,no clear difference

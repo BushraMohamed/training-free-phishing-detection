@@ -1,0 +1,8 @@
+Train_on,Test_on,Model,Accuracy,Precision,Recall,F1,TP,FP,FN,TN
+Enron Full,"MeAJOR 2025 (3,000)",xlm-roberta-base,93.07,89.01,98.27,93.41,737,91,13,659
+Enron Full,Salloum English 300,xlm-roberta-base,76.67,77.78,74.67,76.19,56,16,19,59
+Enron Full,Nazario Full,xlm-roberta-base,67.94,100.0,67.94,80.91,532,0,251,0
+Salloum Arabic 300,UAE Synthetic Arabic,xlm-roberta-base,50.0,50.0,100.0,66.67,150,150,0,0
+"MeAJOR 2025 (3,000)",Enron Full,xlm-roberta-base,80.79,71.78,97.38,82.64,6805,2676,183,5220
+"MeAJOR 2025 (3,000)",Salloum English 300,xlm-roberta-base,66.0,66.67,64.0,65.31,48,24,27,51
+UAE Synthetic Arabic,Salloum Arabic 300,xlm-roberta-base,60.67,56.78,89.33,69.43,67,51,8,24

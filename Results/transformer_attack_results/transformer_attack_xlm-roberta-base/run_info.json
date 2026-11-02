@@ -1,0 +1,17 @@
+{
+  "created": "2026-10-31T10:15:29",
+  "model": "xlm-roberta-base",
+  "datasets": [
+    "MeAJOR 2025 (3,000)",
+    "Salloum English 300",
+    "Salloum Arabic 300"
+  ],
+  "epochs": 3,
+  "max_len": 256,
+  "batch": 16,
+  "lr": 2e-05,
+  "seed": 2026,
+  "same_sample_as_robustness_results": true,
+  "python": "3.13.16",
+  "runtime_minutes": 2.2
+}

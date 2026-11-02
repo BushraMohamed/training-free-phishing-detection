@@ -1,0 +1,28 @@
+Part,Setting,Dataset,Run,F1,Recall,FP
+held-out test half,"Selected (R 90 / Pe 10, T 30)",Salloum English 300,1,93.88,92.0,3
+held-out test half,"Selected (R 90 / Pe 10, T 30)",Salloum English 300,2,94.59,93.33,3
+held-out test half,"Selected (R 90 / Pe 10, T 30)",Salloum English 300,3,94.52,92.0,2
+held-out test half,"Selected (R 90 / Pe 10, T 30)",Salloum Arabic 300,1,89.61,92.0,10
+held-out test half,"Selected (R 90 / Pe 10, T 30)",Salloum Arabic 300,2,91.03,94.67,10
+held-out test half,"Selected (R 90 / Pe 10, T 30)",Salloum Arabic 300,3,90.2,92.0,9
+held-out test half,"Selected (R 90 / Pe 10, T 30)",UAE Synthetic Arabic,1,99.34,100.0,2
+held-out test half,"Selected (R 90 / Pe 10, T 30)",UAE Synthetic Arabic,2,99.67,100.0,1
+held-out test half,"Selected (R 90 / Pe 10, T 30)",UAE Synthetic Arabic,3,99.34,100.0,2
+held-out test half,"Equal weight (50/50, T 30)",Salloum English 300,1,90.91,86.67,3
+held-out test half,"Equal weight (50/50, T 30)",Salloum English 300,2,90.91,86.67,3
+held-out test half,"Equal weight (50/50, T 30)",Salloum English 300,3,91.55,86.67,2
+held-out test half,"Equal weight (50/50, T 30)",Salloum Arabic 300,1,88.89,85.33,5
+held-out test half,"Equal weight (50/50, T 30)",Salloum Arabic 300,2,89.66,86.67,5
+held-out test half,"Equal weight (50/50, T 30)",Salloum Arabic 300,3,91.16,89.33,5
+held-out test half,"Equal weight (50/50, T 30)",UAE Synthetic Arabic,1,100.0,100.0,0
+held-out test half,"Equal weight (50/50, T 30)",UAE Synthetic Arabic,2,100.0,100.0,0
+held-out test half,"Equal weight (50/50, T 30)",UAE Synthetic Arabic,3,100.0,100.0,0
+held-out test half,Reasoning only (T 30),Salloum English 300,1,93.24,92.0,4
+held-out test half,Reasoning only (T 30),Salloum English 300,2,94.59,93.33,3
+held-out test half,Reasoning only (T 30),Salloum English 300,3,95.24,93.33,2
+held-out test half,Reasoning only (T 30),Salloum Arabic 300,1,91.14,96.0,11
+held-out test half,Reasoning only (T 30),Salloum Arabic 300,2,90.45,94.67,11
+held-out test half,Reasoning only (T 30),Salloum Arabic 300,3,91.03,94.67,10
+held-out test half,Reasoning only (T 30),UAE Synthetic Arabic,1,99.01,100.0,3
+held-out test half,Reasoning only (T 30),UAE Synthetic Arabic,2,99.34,100.0,2
+held-out test half,Reasoning only (T 30),UAE Synthetic Arabic,3,99.34,100.0,2

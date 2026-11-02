@@ -1,0 +1,19 @@
+Dataset,Configuration,Perspective_%,Threshold,F1,Precision,Recall,FP,FN
+Enron Full,Selected (frozen),10,30,77.53,97.07,64.54,136,2478
+Enron Full,Equal weight (earlier setting),50,30,76.74,98.34,62.92,74,2591
+Enron Full,Reasoning only,0,30,77.74,96.86,64.93,147,2451
+Nazario Full,Selected (frozen),10,30,95.81,100.0,91.95,0,63
+Nazario Full,Equal weight (earlier setting),50,30,94.4,100.0,89.4,0,83
+Nazario Full,Reasoning only,0,30,96.08,100.0,92.46,0,59
+Salloum English 300,Selected (frozen),10,30,93.88,95.83,92.0,3,6
+Salloum English 300,Equal weight (earlier setting),50,30,90.91,95.59,86.67,3,10
+Salloum English 300,Reasoning only,0,30,93.24,94.52,92.0,4,6
+Salloum Arabic 300,Selected (frozen),10,30,89.61,87.34,92.0,10,6
+Salloum Arabic 300,Equal weight (earlier setting),50,30,88.89,92.75,85.33,5,11
+Salloum Arabic 300,Reasoning only,0,30,91.14,86.75,96.0,11,3
+"MeAJOR 2025 (3,000)",Selected (frozen),10,30,90.69,92.51,88.93,54,83
+"MeAJOR 2025 (3,000)",Equal weight (earlier setting),50,30,89.93,94.56,85.73,37,107
+"MeAJOR 2025 (3,000)",Reasoning only,0,30,90.41,91.64,89.2,61,81
+UAE Synthetic Arabic,Selected (frozen),10,30,99.34,98.68,100.0,2,0
+UAE Synthetic Arabic,Equal weight (earlier setting),50,30,100.0,100.0,100.0,0,0
+UAE Synthetic Arabic,Reasoning only,0,30,99.01,98.04,100.0,3,0

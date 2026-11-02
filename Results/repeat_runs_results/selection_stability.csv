@@ -1,0 +1,4 @@
+Run,Chosen_Pe_%,Chosen_T,Chosen_dev_mean_F1,Best_dev_mean_F1,Tied_settings,Frozen_90_10_T30_within_tie_band,Same_as_frozen
+1,10,30,89.04,89.16,5,yes,yes
+2,10,30,89.74,89.92,5,yes,yes
+3,30,30,89.41,89.46,7,yes,no

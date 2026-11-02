@@ -1,0 +1,14 @@
+{
+  "created": "2026-10-31T14:41:25",
+  "system_file": "AI_Phishing_Detection_System_Final.py",
+  "runs_total": 3,
+  "datasets_rescored": [
+    "Salloum English 300",
+    "Salloum Arabic 300",
+    "UAE Synthetic Arabic"
+  ],
+  "seed": 2026,
+  "split_source": "imported from Select_And_Freeze_Configuration.py",
+  "model": "gpt-4o-mini",
+  "python": "3.9.6"
+}

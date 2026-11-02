@@ -1,0 +1,5 @@
+Dataset,Model,Accuracy,Precision,Recall,F1,TP,FP,FN,TN,Best_epoch,Validation_F1
+Salloum Arabic 300,aubmindlab/bert-base-arabertv02,87.33,85.9,89.33,87.58,67,11,8,64,1,100.0
+Salloum Arabic 300,"Proposed system (R 90% / Pe 10%, T=30)",89.33,87.34,92.0,89.61,69,10,6,65,,
+UAE Synthetic Arabic,aubmindlab/bert-base-arabertv02,97.67,100.0,95.33,97.61,143,0,7,150,1,100.0
+UAE Synthetic Arabic,"Proposed system (R 90% / Pe 10%, T=30)",99.33,98.68,100.0,99.34,150,2,0,148,,

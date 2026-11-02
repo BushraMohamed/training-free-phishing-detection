@@ -1,0 +1,7 @@
+{
+  "created": "2026-10-31T14:40:09",
+  "backup": "score_cache_reasoning_only_run1_original",
+  "sanitiser_rescored": true,
+  "python": "3.9.6",
+  "runtime_minutes": 0.3
+}

@@ -1,0 +1,38 @@
+{
+  "created": "2026-10-06T20:36:21",
+  "weights_percent": {
+    "pattern": 0,
+    "reasoning": 90,
+    "perspective": 10
+  },
+  "threshold": 30,
+  "rule": "max mean F1 on development halves of ['Enron Full', 'Salloum English 300', 'Salloum Arabic 300', 'MeAJOR 2025 (3,000)', 'UAE Synthetic Arabic']; Perspective weight >= 10%; settings within 0.25pp of best are tied; ties broken by fewer false positives",
+  "split_seed": 2026,
+  "dev_macro_F1_of_chosen": 89.04,
+  "cache_files_md5": {
+    "Enron Full": {
+      "file": "score_cache_reasoning_only/Enron_Full_scores.json",
+      "md5": "5c19877213327aca04768757a90a9074"
+    },
+    "Nazario Full": {
+      "file": "score_cache_reasoning_only/Nazario_Full_scores.json",
+      "md5": "41ab91751fe555904a303da9321af749"
+    },
+    "Salloum English 300": {
+      "file": "score_cache_reasoning_only/Salloum_English_300_scores.json",
+      "md5": "43412565c0fd1762eac9b6fc278289be"
+    },
+    "Salloum Arabic 300": {
+      "file": "score_cache_reasoning_only/Salloum_Arabic_300_scores.json",
+      "md5": "412948d9767b303efb0fbbc069375305"
+    },
+    "MeAJOR 2025 (3,000)": {
+      "file": "score_cache_reasoning_only/MeAJOR_2025_scores.json",
+      "md5": "543dc7ee503f44c0166cf16bd686e903"
+    },
+    "UAE Synthetic Arabic": {
+      "file": "score_cache_reasoning_only/UAE_Synthetic_Arabic_scores.json",
+      "md5": "8702d98ead16bdb7769405d84d6ab1de"
+    }
+  }
+}

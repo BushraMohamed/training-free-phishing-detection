@@ -1,0 +1,10 @@
+{
+  "created": "2026-10-31T14:31:28",
+  "code_files": [
+    "AI_Phishing_Detection_System_Final.py",
+    "AI_Phishing_Detection_System_v50_TFIDF.py"
+  ],
+  "hash_seed_check": "identical across hash seeds",
+  "python": "3.9.6",
+  "runtime_minutes": 0.3
+}

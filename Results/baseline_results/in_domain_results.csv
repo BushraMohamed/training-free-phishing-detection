@@ -1,0 +1,16 @@
+Dataset,Model,Accuracy,Precision,Recall,F1,TP,FP,FN,TN,Best_C
+Enron Full,TF-IDF + Logistic Regression,99.08,98.51,99.54,99.02,6956,105,32,7791,10.0
+Enron Full,TF-IDF + Linear SVM,99.18,98.75,99.51,99.13,6954,88,34,7808,1.0
+Enron Full,"Proposed system (R 90% / Pe 10%, T=30)",82.44,97.07,64.54,77.53,4510,136,2478,7760,
+Salloum English 300,TF-IDF + Logistic Regression,96.0,94.81,97.33,96.05,73,4,2,71,1.0
+Salloum English 300,TF-IDF + Linear SVM,96.0,94.81,97.33,96.05,73,4,2,71,0.1
+Salloum English 300,"Proposed system (R 90% / Pe 10%, T=30)",94.0,95.83,92.0,93.88,69,3,6,72,
+Salloum Arabic 300,TF-IDF + Logistic Regression,94.67,90.36,100.0,94.94,75,8,0,67,0.1
+Salloum Arabic 300,TF-IDF + Linear SVM,94.67,90.36,100.0,94.94,75,8,0,67,0.01
+Salloum Arabic 300,"Proposed system (R 90% / Pe 10%, T=30)",89.33,87.34,92.0,89.61,69,10,6,65,
+"MeAJOR 2025 (3,000)",TF-IDF + Logistic Regression,96.53,96.29,96.8,96.54,726,28,24,722,10.0
+"MeAJOR 2025 (3,000)",TF-IDF + Linear SVM,96.4,96.03,96.8,96.41,726,30,24,720,0.1
+"MeAJOR 2025 (3,000)","Proposed system (R 90% / Pe 10%, T=30)",90.87,92.51,88.93,90.69,667,54,83,696,
+UAE Synthetic Arabic,TF-IDF + Logistic Regression,100.0,100.0,100.0,100.0,150,0,0,150,0.1
+UAE Synthetic Arabic,TF-IDF + Linear SVM,100.0,100.0,100.0,100.0,150,0,0,150,0.01
+UAE Synthetic Arabic,"Proposed system (R 90% / Pe 10%, T=30)",99.33,98.68,100.0,99.34,150,2,0,148,

@@ -1,0 +1,33 @@
+Dataset,Condition,Phishing_emails,Recall_final_%,Recall_reasoning_only_%,Recall_drop_pp,Drop_CI95_low,Drop_CI95_high,FP_on_clean_legitimate,Legitimate_emails,F1_final_%
+"MeAJOR 2025 (3,000)",Clean,100,89.0,89.0,0.0,0.0,0.0,5,100,91.75
+"MeAJOR 2025 (3,000)",A1 visible injection,100,31.0,32.0,58.0,48.0,67.0,5,100,45.59
+"MeAJOR 2025 (3,000)",A1 visible injection + sanitiser,100,89.0,89.0,0.0,0.0,0.0,5,100,91.75
+"MeAJOR 2025 (3,000)",A2 hidden injection,100,1.0,1.0,88.0,82.0,95.0,5,100,1.89
+"MeAJOR 2025 (3,000)",A2 hidden injection + sanitiser,100,89.0,89.0,0.0,0.0,0.0,5,100,91.75
+"MeAJOR 2025 (3,000)",A3 benign stuffing,100,88.0,90.0,1.0,-4.0,6.0,5,100,91.19
+"MeAJOR 2025 (3,000)",A3 benign stuffing + sanitiser,100,88.0,90.0,1.0,-4.0,6.0,5,100,91.19
+"MeAJOR 2025 (3,000)",A4 paraphrase,100,60.0,63.0,29.0,20.0,38.0,5,100,72.73
+Salloum English 300,Clean,75,90.67,93.33,0.0,0.0,0.0,3,75,93.15
+Salloum English 300,A1 visible injection,75,26.67,26.67,64.0,53.33,74.67,3,75,40.82
+Salloum English 300,A1 visible injection + sanitiser,75,90.67,93.33,0.0,0.0,0.0,3,75,93.15
+Salloum English 300,A2 hidden injection,75,26.67,26.67,64.0,53.33,74.67,3,75,40.82
+Salloum English 300,A2 hidden injection + sanitiser,75,90.67,93.33,0.0,0.0,0.0,3,75,93.15
+Salloum English 300,A3 benign stuffing,75,89.33,89.33,1.33,-2.67,6.67,3,75,92.41
+Salloum English 300,A3 benign stuffing + sanitiser,75,89.33,89.33,1.33,-2.67,6.67,3,75,92.41
+Salloum English 300,A4 paraphrase,75,77.33,78.67,13.33,6.67,21.33,3,75,85.29
+Salloum Arabic 300,Clean,75,93.33,96.0,0.0,0.0,0.0,12,75,89.17
+Salloum Arabic 300,A1 visible injection,75,92.0,92.0,1.33,0.0,4.0,12,75,88.46
+Salloum Arabic 300,A1 visible injection + sanitiser,75,93.33,96.0,0.0,0.0,0.0,12,75,89.17
+Salloum Arabic 300,A2 hidden injection,75,86.67,88.0,6.67,1.33,12.0,12,75,85.53
+Salloum Arabic 300,A2 hidden injection + sanitiser,75,93.33,96.0,0.0,0.0,0.0,12,75,89.17
+Salloum Arabic 300,A3 benign stuffing,75,93.33,93.33,0.0,0.0,0.0,12,75,89.17
+Salloum Arabic 300,A3 benign stuffing + sanitiser,75,93.33,93.33,0.0,0.0,0.0,12,75,89.17
+Salloum Arabic 300,A4 paraphrase,75,88.0,90.67,5.33,1.33,12.0,12,75,86.27
+ALL,Clean,250,90.8,92.4,0.0,0.0,0.0,20,250,91.35
+ALL,A1 visible injection,250,48.0,48.4,42.8,36.4,49.2,20,250,61.54
+ALL,A1 visible injection + sanitiser,250,90.8,92.4,0.0,0.0,0.0,20,250,91.35
+ALL,A2 hidden injection,250,34.4,34.8,56.4,50.4,62.41,20,250,48.31
+ALL,A2 hidden injection + sanitiser,250,90.8,92.4,0.0,0.0,0.0,20,250,91.35
+ALL,A3 benign stuffing,250,90.0,90.8,0.8,-1.6,3.2,20,250,90.91
+ALL,A3 benign stuffing + sanitiser,250,90.0,90.8,0.8,-1.6,3.2,20,250,90.91
+ALL,A4 paraphrase,250,73.6,76.0,17.2,12.4,22.0,20,250,81.06

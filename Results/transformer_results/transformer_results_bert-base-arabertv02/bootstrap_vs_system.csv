@@ -1,0 +1,3 @@
+Dataset,Comparison,F1_diff_pp,CI95_low,CI95_high,Verdict
+Salloum Arabic 300,aubmindlab/bert-base-arabertv02 minus system,-2.05,-9.3,4.91,no clear difference
+UAE Synthetic Arabic,aubmindlab/bert-base-arabertv02 minus system,-1.66,-3.71,-0.01,clear difference

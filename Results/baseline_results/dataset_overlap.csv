@@ -1,0 +1,22 @@
+Dataset_A,Dataset_B,Shared_emails,Share_of_A_%
+Enron Full,(within itself),426,1.43
+Enron Full,Nazario Full,0,0.0
+Enron Full,Salloum English 300,0,0.0
+Enron Full,Salloum Arabic 300,0,0.0
+Enron Full,"MeAJOR 2025 (3,000)",1,0.0
+Enron Full,UAE Synthetic Arabic,0,0.0
+Nazario Full,(within itself),14,0.89
+Nazario Full,Salloum English 300,0,0.0
+Nazario Full,Salloum Arabic 300,0,0.0
+Nazario Full,"MeAJOR 2025 (3,000)",0,0.0
+Nazario Full,UAE Synthetic Arabic,0,0.0
+Salloum English 300,(within itself),2,0.67
+Salloum English 300,Salloum Arabic 300,0,0.0
+Salloum English 300,"MeAJOR 2025 (3,000)",0,0.0
+Salloum English 300,UAE Synthetic Arabic,0,0.0
+Salloum Arabic 300,(within itself),2,0.67
+Salloum Arabic 300,"MeAJOR 2025 (3,000)",0,0.0
+Salloum Arabic 300,UAE Synthetic Arabic,0,0.0
+"MeAJOR 2025 (3,000)",(within itself),49,1.63
+"MeAJOR 2025 (3,000)",UAE Synthetic Arabic,0,0.0
+UAE Synthetic Arabic,(within itself),0,0.0

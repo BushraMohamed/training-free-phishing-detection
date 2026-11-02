@@ -1,0 +1,3 @@
+Setup,Test_AUC_pattern_alone
+"Previous scorer, lists built from the WHOLE Salloum Arabic file (includes the test emails)",0.9339
+"New BM25 (email = document), lists from development halves only",0.7991

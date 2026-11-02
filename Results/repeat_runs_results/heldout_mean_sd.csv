@@ -1,0 +1,10 @@
+Setting,Dataset,F1_mean,F1_SD,F1_min,F1_max,FP_mean
+"Selected (R 90 / Pe 10, T 30)",Salloum English 300,94.33,0.39,93.88,94.59,2.7
+"Selected (R 90 / Pe 10, T 30)",Salloum Arabic 300,90.28,0.71,89.61,91.03,9.7
+"Selected (R 90 / Pe 10, T 30)",UAE Synthetic Arabic,99.45,0.19,99.34,99.67,1.7
+"Equal weight (50/50, T 30)",Salloum English 300,91.12,0.37,90.91,91.55,2.7
+"Equal weight (50/50, T 30)",Salloum Arabic 300,89.9,1.15,88.89,91.16,5.0
+"Equal weight (50/50, T 30)",UAE Synthetic Arabic,100.0,0.0,100.0,100.0,0.0
+Reasoning only (T 30),Salloum English 300,94.36,1.02,93.24,95.24,3.0
+Reasoning only (T 30),Salloum Arabic 300,90.87,0.37,90.45,91.14,10.7
+Reasoning only (T 30),UAE Synthetic Arabic,99.23,0.19,99.01,99.34,2.3

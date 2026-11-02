@@ -1,0 +1,22 @@
+Train_on,Test_on,Model,Accuracy,Precision,Recall,F1,TP,FP,FN,TN,Note
+Enron Full,"MeAJOR 2025 (3,000)",TF-IDF + Logistic Regression,83.93,77.16,96.4,85.71,723,214,27,536,"MeAJOR includes TREC-05, whose legitimate emails come from Enron: possible overlap"
+Enron Full,"MeAJOR 2025 (3,000)",TF-IDF + Linear SVM,84.2,77.61,96.13,85.88,721,208,29,542,"MeAJOR includes TREC-05, whose legitimate emails come from Enron: possible overlap"
+Enron Full,"MeAJOR 2025 (3,000)","Proposed system (R 90% / Pe 10%, T=30) [no training]",90.87,92.51,88.93,90.69,667,54,83,696,"MeAJOR includes TREC-05, whose legitimate emails come from Enron: possible overlap"
+"MeAJOR 2025 (3,000)",Enron Full,TF-IDF + Logistic Regression,89.69,83.21,97.77,89.9,6832,1379,156,6517,"MeAJOR includes TREC-05, whose legitimate emails come from Enron: possible overlap"
+"MeAJOR 2025 (3,000)",Enron Full,TF-IDF + Linear SVM,88.65,81.57,97.94,89.01,6844,1546,144,6350,"MeAJOR includes TREC-05, whose legitimate emails come from Enron: possible overlap"
+"MeAJOR 2025 (3,000)",Enron Full,"Proposed system (R 90% / Pe 10%, T=30) [no training]",82.44,97.07,64.54,77.53,4510,136,2478,7760,"MeAJOR includes TREC-05, whose legitimate emails come from Enron: possible overlap"
+Enron Full,Salloum English 300,TF-IDF + Logistic Regression,62.67,59.22,81.33,68.54,61,42,14,33,
+Enron Full,Salloum English 300,TF-IDF + Linear SVM,62.0,58.82,80.0,67.8,60,42,15,33,
+Enron Full,Salloum English 300,"Proposed system (R 90% / Pe 10%, T=30) [no training]",94.0,95.83,92.0,93.88,69,3,6,72,
+"MeAJOR 2025 (3,000)",Salloum English 300,TF-IDF + Logistic Regression,67.33,61.61,92.0,73.8,69,43,6,32,
+"MeAJOR 2025 (3,000)",Salloum English 300,TF-IDF + Linear SVM,65.33,59.83,93.33,72.92,70,47,5,28,
+"MeAJOR 2025 (3,000)",Salloum English 300,"Proposed system (R 90% / Pe 10%, T=30) [no training]",94.0,95.83,92.0,93.88,69,3,6,72,
+Enron Full,Nazario Full,TF-IDF + Logistic Regression,87.87,100.0,87.87,93.54,688,0,95,0,phishing-only target: report Recall
+Enron Full,Nazario Full,TF-IDF + Linear SVM,85.06,100.0,85.06,91.93,666,0,117,0,phishing-only target: report Recall
+Enron Full,Nazario Full,"Proposed system (R 90% / Pe 10%, T=30) [no training]",91.95,100.0,91.95,95.81,720,0,63,0,phishing-only target: report Recall
+Salloum Arabic 300,UAE Synthetic Arabic,TF-IDF + Logistic Regression,50.67,50.34,100.0,66.96,150,148,0,2,
+Salloum Arabic 300,UAE Synthetic Arabic,TF-IDF + Linear SVM,50.67,50.34,100.0,66.96,150,148,0,2,
+Salloum Arabic 300,UAE Synthetic Arabic,"Proposed system (R 90% / Pe 10%, T=30) [no training]",99.33,98.68,100.0,99.34,150,2,0,148,
+UAE Synthetic Arabic,Salloum Arabic 300,TF-IDF + Logistic Regression,70.67,89.74,46.67,61.4,35,4,40,71,
+UAE Synthetic Arabic,Salloum Arabic 300,TF-IDF + Linear SVM,70.67,89.74,46.67,61.4,35,4,40,71,
+UAE Synthetic Arabic,Salloum Arabic 300,"Proposed system (R 90% / Pe 10%, T=30) [no training]",89.33,87.34,92.0,89.61,69,10,6,65,

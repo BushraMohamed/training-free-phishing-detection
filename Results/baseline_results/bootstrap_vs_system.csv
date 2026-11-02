@@ -1,0 +1,13 @@
+Dataset,Comparison,F1_diff_pp,CI95_low,CI95_high,Verdict
+Enron Full,TF-IDF + Logistic Regression minus system,21.47,20.6,22.34,clear difference
+Enron Full,TF-IDF + Linear SVM minus system,21.63,20.78,22.41,clear difference
+Salloum English 300,TF-IDF + Logistic Regression minus system,2.19,-2.56,6.94,no clear difference
+Salloum English 300,TF-IDF + Linear SVM minus system,2.31,-2.51,6.94,no clear difference
+Salloum Arabic 300,TF-IDF + Logistic Regression minus system,5.32,0.12,11.42,clear difference
+Salloum Arabic 300,TF-IDF + Linear SVM minus system,5.3,0.26,10.82,clear difference
+"MeAJOR 2025 (3,000)",TF-IDF + Logistic Regression minus system,5.86,4.21,7.55,clear difference
+"MeAJOR 2025 (3,000)",TF-IDF + Linear SVM minus system,5.74,4.1,7.44,clear difference
+UAE Synthetic Arabic,TF-IDF + Logistic Regression minus system,0.68,0.0,1.74,no clear difference
+UAE Synthetic Arabic,TF-IDF + Linear SVM minus system,0.66,0.0,1.81,no clear difference
+MACRO (selection datasets),TF-IDF + Logistic Regression minus system,7.12,5.59,8.54,clear difference
+MACRO (selection datasets),TF-IDF + Linear SVM minus system,7.16,5.56,8.67,clear difference

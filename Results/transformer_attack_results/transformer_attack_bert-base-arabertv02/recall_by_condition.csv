@@ -1,0 +1,17 @@
+Dataset,Model,Condition,Phishing_emails,Recall_%,Recall_drop_pp,Drop_CI95_low,Drop_CI95_high,FP_on_clean_legitimate,Legitimate_emails
+Salloum Arabic 300,aubmindlab/bert-base-arabertv02,Clean,75,89.33,0.0,0.0,0.0,11,75
+Salloum Arabic 300,aubmindlab/bert-base-arabertv02,A1 visible injection,75,90.67,-1.33,-4.0,0.0,11,75
+Salloum Arabic 300,aubmindlab/bert-base-arabertv02,A1 visible injection + sanitiser,75,89.33,0.0,0.0,0.0,11,75
+Salloum Arabic 300,aubmindlab/bert-base-arabertv02,A2 hidden injection,75,93.33,-4.0,-9.33,0.0,11,75
+Salloum Arabic 300,aubmindlab/bert-base-arabertv02,A2 hidden injection + sanitiser,75,89.33,0.0,0.0,0.0,11,75
+Salloum Arabic 300,aubmindlab/bert-base-arabertv02,A3 benign stuffing,75,92.0,-2.67,-6.67,0.0,11,75
+Salloum Arabic 300,aubmindlab/bert-base-arabertv02,A3 benign stuffing + sanitiser,75,92.0,-2.67,-6.67,0.0,11,75
+Salloum Arabic 300,aubmindlab/bert-base-arabertv02,A4 paraphrase,75,94.67,-5.33,-10.67,-1.33,11,75
+ALL,aubmindlab/bert-base-arabertv02,Clean,75,89.33,0.0,0.0,0.0,11,75
+ALL,aubmindlab/bert-base-arabertv02,A1 visible injection,75,90.67,-1.33,-4.0,0.0,11,75
+ALL,aubmindlab/bert-base-arabertv02,A1 visible injection + sanitiser,75,89.33,0.0,0.0,0.0,11,75
+ALL,aubmindlab/bert-base-arabertv02,A2 hidden injection,75,93.33,-4.0,-8.0,0.0,11,75
+ALL,aubmindlab/bert-base-arabertv02,A2 hidden injection + sanitiser,75,89.33,0.0,0.0,0.0,11,75
+ALL,aubmindlab/bert-base-arabertv02,A3 benign stuffing,75,92.0,-2.67,-6.67,0.0,11,75
+ALL,aubmindlab/bert-base-arabertv02,A3 benign stuffing + sanitiser,75,92.0,-2.67,-6.67,0.0,11,75
+ALL,aubmindlab/bert-base-arabertv02,A4 paraphrase,75,94.67,-5.33,-10.67,-1.33,11,75

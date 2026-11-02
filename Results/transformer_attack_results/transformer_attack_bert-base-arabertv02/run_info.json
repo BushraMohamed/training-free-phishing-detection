@@ -1,0 +1,15 @@
+{
+  "created": "2026-10-31T10:16:04",
+  "model": "aubmindlab/bert-base-arabertv02",
+  "datasets": [
+    "Salloum Arabic 300"
+  ],
+  "epochs": 3,
+  "max_len": 256,
+  "batch": 16,
+  "lr": 2e-05,
+  "seed": 2026,
+  "same_sample_as_robustness_results": true,
+  "python": "3.13.16",
+  "runtime_minutes": 0.4
+}

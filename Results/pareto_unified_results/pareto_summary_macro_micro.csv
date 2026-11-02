@@ -1,0 +1,8 @@
+Config,Agents,Weights_P_R_Pe,Cost_per_1000,F1,Micro_F1,Mean_recall,Total_FP,Nazario_recall,Pareto_front
+C1,Pattern only,100/0/0,0.0,71.49,75.31,99.97,5270,100.0,★
+C2,Reasoning only,0/100/0,0.42,90.31,79.89,88.43,226,92.46,
+C3,Perspective only,0/0/100,0.0,18.99,28.53,11.65,755,15.96,
+C4,Pattern + Reasoning,50/50/0,0.42,89.68,85.2,94.18,929,96.04,
+C5,Pattern + Perspective,50/0/50,0.0,65.1,78.61,64.97,1762,78.16,
+C6,Reasoning + Perspective,0/50/50,0.42,89.29,78.94,84.13,119,89.4,
+C7,"All three, equal",33/33/34,0.42,91.47,84.48,89.75,248,93.1,★

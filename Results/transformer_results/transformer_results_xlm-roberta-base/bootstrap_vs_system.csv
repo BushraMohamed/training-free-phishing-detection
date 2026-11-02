@@ -1,0 +1,6 @@
+Dataset,Comparison,F1_diff_pp,CI95_low,CI95_high,Verdict
+Enron Full,xlm-roberta-base minus system,21.43,20.58,22.31,clear difference
+Salloum English 300,xlm-roberta-base minus system,-17.48,-24.66,-10.45,clear difference
+Salloum Arabic 300,xlm-roberta-base minus system,-7.7,-16.36,0.35,no clear difference
+"MeAJOR 2025 (3,000)",xlm-roberta-base minus system,5.08,3.41,6.91,clear difference
+UAE Synthetic Arabic,xlm-roberta-base minus system,-0.34,-1.81,1.05,no clear difference

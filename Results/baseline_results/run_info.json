@@ -1,0 +1,89 @@
+{
+  "datasets": {
+    "Enron Full": {
+      "file": "Enron.csv",
+      "md5": "10489e0fdcc8af6fe62135c689367d40",
+      "text_column": "body",
+      "subject_column": "subject",
+      "n": 29767,
+      "dev": 14883,
+      "test": 14884,
+      "phishing": 13976,
+      "legitimate": 15791
+    },
+    "Nazario Full": {
+      "file": "Nazario.csv",
+      "md5": "4022d055bb7cf8602f30f768f652e91e",
+      "text_column": "body",
+      "subject_column": "subject",
+      "n": 1565,
+      "dev": 782,
+      "test": 783,
+      "phishing": 1565,
+      "legitimate": 0
+    },
+    "Salloum English 300": {
+      "file": "Salloum_English_300.csv",
+      "md5": "cbac81fc5a541e9ca7d62fa3a18e899f",
+      "text_column": "Message (Preview)",
+      "subject_column": "Subject",
+      "n": 300,
+      "dev": 150,
+      "test": 150,
+      "phishing": 150,
+      "legitimate": 150
+    },
+    "Salloum Arabic 300": {
+      "file": "Salloum_Arabic_300.csv",
+      "md5": "3c4cb382a4130ad75b40412e492bc602",
+      "text_column": "Message (Preview)",
+      "subject_column": "Subject",
+      "n": 300,
+      "dev": 150,
+      "test": 150,
+      "phishing": 150,
+      "legitimate": 150
+    },
+    "MeAJOR 2025 (3,000)": {
+      "file": "meajor_cleaned_preprocessed.csv",
+      "md5": "aa8f59e96787cbd696c0b650e5400dc9",
+      "text_column": "body",
+      "subject_column": "subject",
+      "n": 3000,
+      "dev": 1500,
+      "test": 1500,
+      "phishing": 1500,
+      "legitimate": 1500
+    },
+    "UAE Synthetic Arabic": {
+      "file": "UAE_Synthetic_Arabic_Combined_600.csv",
+      "md5": "45013d46e946ed00afe6a04acaa360c6",
+      "text_column": "Message (Preview)",
+      "subject_column": "Subject",
+      "n": 600,
+      "dev": 300,
+      "test": 300,
+      "phishing": 300,
+      "legitimate": 300
+    }
+  },
+  "created": "2026-10-20T17:52:23",
+  "split_source": "imported from Select_And_Freeze_Configuration.py",
+  "seed": 2026,
+  "system_configuration": {
+    "perspective_pct": 10,
+    "threshold": 30,
+    "source": "final_configuration/frozen_config.json"
+  },
+  "features": "TF-IDF word 1-2 grams + char_wb 3-5 grams, sublinear tf, fitted on the development half only",
+  "tuning": "C by 5-fold stratified CV (F1) on the development half; LR C in [0.1, 1.0, 10.0], SVM C in [0.01, 0.1, 1.0]",
+  "max_chars": 20000,
+  "bootstrap_resamples": 1000,
+  "versions": {
+    "python": "3.9.6",
+    "sklearn": "1.6.1",
+    "numpy": "2.0.2",
+    "pandas": "2.3.3"
+  },
+  "runtime_minutes": 5.4
+}
